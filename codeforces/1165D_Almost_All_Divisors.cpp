@@ -18,7 +18,7 @@ void solve(){
             return;
         }
     }
-    cout << ans; newline
+    cout << ans;
     return;
 }
 

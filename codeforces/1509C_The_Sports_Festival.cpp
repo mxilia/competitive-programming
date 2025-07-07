@@ -15,6 +15,6 @@ signed main(){
         cin >> s[i];
         f[s[i]]++;
     }
-    
+    cout << 1;
     return 0;
 }

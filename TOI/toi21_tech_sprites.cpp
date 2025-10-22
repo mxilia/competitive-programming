@@ -34,7 +34,6 @@ void solve(){
         cin >> u >> v;
         edge.push_back({u,v});
         deg[u]++; deg[v]++;
-        
     }
     vector<vector<int>> adj(n+5);
     for(int i=1;i<=n;i++) adj[i].reserve(deg[i]+5);

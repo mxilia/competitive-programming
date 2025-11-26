@@ -1,27 +1,20 @@
 #include <bits/stdc++.h>
 #define newline cout << "\n";
+#define f first
+#define s second
 using namespace std;
 using ll=long long;
 using pii=pair<int,int>;
 using pll=pair<ll,ll>;
-
-struct E
-{
-    int u,w,idx;
-};
-
-vector<E> adj[1000005];
+#define int long long
 
 void solve(){
-    int n,m;
-    cin >> n >> m;
-    for(int i=1;i<=m;i++){
-        int u,v,w;
-        cin >> u >> v >> w;
-        adj[u].push_back({v,w,i});
-        adj[v].push_back({u,w,i});
-    }
-    
+    int a,b,n;
+    cin >> a >> b >> n;
+    if(a/n<=b && a==b) cout << "1";
+    else if(a/n<b && a>=b) cout << "2";
+    else if(a/n>=b && a>b) cout << "1";
+    newline
     return;
 }
 

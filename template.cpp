@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define newline cout << '\n';
 using namespace std;
 using ll = long long;
 using pii = pair<int, int>;

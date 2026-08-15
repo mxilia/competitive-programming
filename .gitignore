@@ -1,0 +1,14 @@
+# 1. Ignore all files by default
+*
+
+# 2. Allow directories so Git can search them
+!*/
+
+# 3. Allow your C++ source and header files
+!*.cpp
+!*.hpp
+!*.h
+!*.cc
+!README.md
+!.gitignore
+!*.json
